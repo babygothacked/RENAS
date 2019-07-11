@@ -28,7 +28,7 @@ USE_GPU_AUGMENTER=0
 USE_COLOR_AUG=0
 USE_LIGHTING_AUG=0
 
-DATA_DIR= '../../cifar-10-batches-py'
+DATA_DIR= '../../cifar-10-batches-py/data_batch_1'
 
 python -u train_model.py \
  --data-dir ${DATA_DIR} \
