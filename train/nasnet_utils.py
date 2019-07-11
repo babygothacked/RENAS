@@ -640,7 +640,7 @@ def Auxiliary_head(data,
                                      act_type='relu',
                                      name=name + '_au_head_conv1x1_relu')
     au_head_data_shape = get_inshape(au_head_data, input_shape)
-    print au_head_data_shape
+    print(au_head_data_shape)
 
     conv_shape = (int(au_head_data_shape[0][2]),
                   int(au_head_data_shape[0][3]))
