@@ -28,7 +28,7 @@ USE_GPU_AUGMENTER=0
 USE_COLOR_AUG=0
 USE_LIGHTING_AUG=0
 
-DATA_DIR= 'path_to_dataset'
+DATA_DIR= '../../cifar-10-batches-py'
 
 python -u train_model.py \
  --data-dir ${DATA_DIR} \
