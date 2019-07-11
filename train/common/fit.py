@@ -2,7 +2,6 @@ import mxnet as mx
 import logging
 import os
 import time
-import lr_scheduler 
 from metric_evl import DKAccuracy
 from metric_evl import DKAccuracyTopK
 
